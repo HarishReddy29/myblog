@@ -1,0 +1,31 @@
+
+.header {
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+
+.header ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ca7250;
+  justify-content: flex-end;
+  top: 0;
+}
+
+.header ul li {
+  float: left;
+}
+
+.header li a, .header li div a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 36px;
+  text-decoration: none;
+}
